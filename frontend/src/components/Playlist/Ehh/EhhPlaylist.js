@@ -10,6 +10,7 @@ function EhhPlaylist(props) {
 				<p>Here are some playlist I'd recommend</p>
 
 				<iframe
+					className='box'
 					src='https://open.spotify.com/embed/playlist/37i9dQZF1DWVV27DiNWxkR'
 					width='300'
 					height='80'
@@ -18,6 +19,7 @@ function EhhPlaylist(props) {
 					allow='encrypted-media'></iframe>
 
 				<iframe
+					className='box'
 					src='https://open.spotify.com/embed/playlist/7kEE6TqULEqEkWETKhXscw'
 					width='300'
 					height='80'
@@ -26,6 +28,7 @@ function EhhPlaylist(props) {
 					allow='encrypted-media'></iframe>
 
 				<iframe
+					className='box'
 					src='https://open.spotify.com/embed/playlist/0zHkISuEcNr2Zav2X4TXCQ'
 					width='300'
 					height='80'
@@ -34,6 +37,7 @@ function EhhPlaylist(props) {
 					allow='encrypted-media'></iframe>
 
 				<iframe
+					className='box'
 					src='https://open.spotify.com/embed/playlist/37i9dQZF1DX7qK8ma5wgG1'
 					width='300'
 					height='80'
@@ -42,6 +46,7 @@ function EhhPlaylist(props) {
 					allow='encrypted-media'></iframe>
 
 				<iframe
+					className='box'
 					src='https://open.spotify.com/embed/playlist/4VTWL44UfFqQxMN8noXNAX'
 					width='300'
 					height='80'
@@ -50,6 +55,7 @@ function EhhPlaylist(props) {
 					allow='encrypted-media'></iframe>
 
 				<iframe
+					className='box'
 					src='https://open.spotify.com/embed/playlist/0oLzSZvvLcNH5EK5xgPh0f'
 					width='300'
 					height='80'

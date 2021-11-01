@@ -32,9 +32,9 @@ function FirstMood(props) {
     return (
         <div>
             <div className="questions1">
-                <h1>Welcome!</h1>
+                <h1>Hello, Nick!</h1>
                 <p>It is currently 52 F and scattered storms</p>
-                <p>What type of mood should your playlist be in today></p>
+                <p>What type of mood should your playlist be in today</p>
 
                 <button className="boxUno">
                     <h3>Happy</h3>
@@ -48,7 +48,7 @@ function FirstMood(props) {
                     <h3>Ehh</h3>
                 </button>
 
-                <p>Current locaiton:</p>
+                <p>Current locaiton: Leawood, KS</p>
             
 
 
