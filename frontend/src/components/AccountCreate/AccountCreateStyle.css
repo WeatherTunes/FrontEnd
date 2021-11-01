@@ -22,10 +22,11 @@ h1{
       align-items: center;
       text-align: center;
       width: 260px;
-      height: 200px;
+      height: 270px;
       border: blueviolet solid 3px;
       border-radius: 5px;
       margin: 15px;
+      top: 3px;
 }
 .Input{
     background: #fafafa;

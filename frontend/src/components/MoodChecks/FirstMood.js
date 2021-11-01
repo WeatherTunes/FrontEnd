@@ -16,24 +16,24 @@ function FirstMood(props) {
 			};
 
 
-    let url = `api.openweathermap.org/data/2.5/weather?zip=${userZip}&appid=601c63e455d4e65901d79b119e46b3e5&units=imperial`
+    
 
-    	useEffect(() => {
-		fetch(url)
-			.then((res) => res.json())
-			.then((json) => {
-				setHome(json);
-			})
+    // 	useEffect(() => {
+	// 	fetch(url)
+	// 		.then((res) => res.json())
+	// 		.then((json) => {
+	// 			setHome(json);
+	// 		})
 
-			.catch(console.error);
-	}, [click]);
+	// 		.catch(console.error);
+	// }, [click]);
 
 
     return (
         <div>
             <div className="questions1">
                 <h1>Welcome!</h1>
-                <p>It is currently temp and condition</p>
+                <p>It is currently 52 F and scattered storms</p>
                 <p>What type of mood should your playlist be in today></p>
 
                 <button className="boxUno">
