@@ -1,0 +1,60 @@
+.questions1 {
+     margin-left: auto;
+     margin-right: auto;
+     width: 300px;
+     bottom: 500px;
+}
+
+h1 {
+    color: rgb(163, 82, 238);
+}
+
+h3{
+    text-align: center;
+    padding: 20% 0 20%;
+}
+
+.boxUno {
+    color: rgb(205, 255, 4);
+    border: cornflowerblue solid 2px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+
+}
+.boxDos {
+    color: rgb(226, 90, 77);
+    border: rgb(246, 28, 28) solid 2px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.boxTres {
+    color: rgb(84, 92, 244);
+    border: rgb(93, 144, 241) solid 2px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+p {
+    color: rgb(141, 70, 207);
+}
