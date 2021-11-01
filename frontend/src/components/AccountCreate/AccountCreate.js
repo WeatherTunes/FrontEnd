@@ -1,33 +1,60 @@
 import React, { useState } from 'react';
+import AccountCreateStyle from "../AccountCreate/AccountCreateStyle.css"
+import axios from 'axios';
 
 
-function AccountCreate(props) {
-    return (
-			<div>
-				<h1>WeatherTunes</h1>
+const AccountCreate = ({ handleAddTodo, setTodos, count, setCount }) => {
+	let initialState = {
+		email: '',
+		firstname: '',
+		zipcode: '',
+	};
 
+	const [userText, setUserText] = useState(initialState);
+
+	const handleSaveClick = (event) => {
+		event.preventDefault();
+			handleAddTodo(userText);
+
+			axios
+				.post(`https://weathertunes.herokuapp.com/api/users`, {
+					email: userText.email,
+					firstname: userText.content,
+				})
+				.then(setUserText(initialState))
+				.then(
+					axios
+						.get(`https://weathertunes.herokuapp.com/api/users`)
+						.then((response) => {
+							setTodos(response.data);
+						})
+						.catch((err) => {
+							console.log(err);
+						})
+				);
+		}
+
+	return(
+		<div className='wholePage'>
+			<h1>WeatherTunes</h1>
+			<div className='fancyBox'>
 				<div className='ImAbox'>
-					<h3>Please make an account</h3>
-					<form>
-						<label>Email</label>
+					<h3 className='Make'>Please make an account</h3>
+					<form className='formField' onSubmit={handleSaveClick}>
 						<input
 							type='email'
-							className='emailInput'
-							placeholder='Enter email'
+							className='Input'
+							placeholder="What's your email?"
 						/>
-
-						<label>First Name</label>
 						<input
 							type='String'
-							className='NameInput'
-							placeholder='Please enter your first name'
+							className='Input'
+							placeholder="What's your name?"
 						/>
-
-						<label>Zipcode</label>
 						<input
 							type='numbers'
-							className='zipcodeInput'
-							placeholder='Enter Zipcode'
+							className='nput'
+							placeholder='Six digit zipcode?'
 						/>
 					</form>
 
@@ -40,19 +67,16 @@ function AccountCreate(props) {
 
 				<div className='ImANicerBox'>
 					<h3>Already have an account?</h3>
-					<label>
-						Please enter your email that you created an account with
-					</label>
 					<input
 						type='email'
 						className='Returning'
-						placeholder='Hi Friend!'></input>
-                        <button type="submit" className="UserButton">Submit</button>
+						placeholder='Please enter your email'></input>
+					<button type='submit' className='UserButton'>
+						Submit
+					</button>
 				</div>
-
-
 			</div>
-		);
-
-}
+		</div>
+	);
+    };
 export default AccountCreate;
