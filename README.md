@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+### **Weather Tunes**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WeatherTunes is an iPhone application that gives a user playlist recommendaitons to listen to on spotify based on their current locaitons daily weather report and their feelings towards the forecast. 
 
-## Available Scripts
 
-In the project directory, you can run:
+<img width="732" alt="Screen Shot 2021-10-25 at 9 14 46 AM" src="https://media.git.generalassemb.ly/user/38059/files/baeab600-3576-11ec-9659-437e66721abe">
+<img width="363" alt="Screen Shot 2021-10-25 at 9 15 00 AM" src="https://media.git.generalassemb.ly/user/38059/files/bfaf6a00-3576-11ec-9fdf-51351950f8e2">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Created using )
+- Frontend: React
+- Backend: Express
+- Database: MongoDB
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Getting Started
+to download and run this app:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- fork and clone the repo
+- ```git clone <your forked repo link here>``` inside your terminal
+- ```npm install``` to install depencences
+- ```npm start``` to display on localhost provided by utilizing your default web browser.
 
-### `npm run build`
+###Issues while coding
+This project took me awhile to come up with as a final project for GA SEIR bootcamp. So far I have created a foundation with information that I want the user to be presented with. After running into many errors with my backend to save user data, and APIs not functioning correctly, I wols strongly say that this is just a beta. I plan on deploying this on the App Store for iPhone users. This brought one main issue was I wanted to try to develope the fill applicaiton to be ready for market by then end of the seven day project time. I then realized that this would be very difficult to exicute as I would need to learn how to use React Native which I plan on developing over the next couple of weeks as I strongly believe that this is a fantastic idea.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contribute Guidelines
+If you would like to contribute, please submite and Issue though github to let our dev team aware of any bugs, or improvments that you have.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Current project status:** 
+Beta 1.0 = pitch has been given to investors. recieved feed back and other ideas. Ready to start moving into utilizing React Native to form final product. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
