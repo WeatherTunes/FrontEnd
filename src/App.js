@@ -12,7 +12,6 @@ function App() {
 			<AccountCreate />
 			<FirstMood />
 			<HappyPlaylist />
-
 			<AngryPlaylist />
 			<EhhPlaylist />
 		</div>
