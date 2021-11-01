@@ -15,7 +15,7 @@ function App() {
 			{/* <div className="BLACK">
     {/* <AccountCreate/> */}
 			{/* <Link className='Home' to='/'></Link>
-    <Link className='Angry' to='/angry'></Link>
+    <Link className='An gry' to='/angry'></Link>
     <Link className='Ehh' to='Ehh'></Link>
     <Link className='Happy' to='Happy'></Link> */}
 			{/* </div>
